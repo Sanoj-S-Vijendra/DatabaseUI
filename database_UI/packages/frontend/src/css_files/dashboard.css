@@ -1,0 +1,27 @@
+.app-layout {
+    min-height: 100vh;
+  }
+  
+  .app-header {
+    background: #001529;
+    padding: 0 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .app-sider {
+    background: #fff;
+    height: 100%;
+    border-right: 1px solid #f0f0f0;
+    overflow-y: auto;
+  }
+  
+  .app-content {
+    margin: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    
+  }

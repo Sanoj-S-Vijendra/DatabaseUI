@@ -1,0 +1,24 @@
+{
+  "name": "my-nocodb-like-project-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo root for NocoDB-like project",
+  "scripts": {
+    "dev": "pnpm --parallel --filter \"./packages/**\" dev",
+    "build": "pnpm --filter \"./packages/**\" build",
+    "db:migrate": "pnpm --filter backend prisma:migrate",
+    "db:generate": "pnpm --filter backend prisma:generate",
+    "db:pull": "pnpm --filter backend db:pull",
+    "db:studio": "pnpm --filter backend prisma:studio"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.17"
+  }
+}
