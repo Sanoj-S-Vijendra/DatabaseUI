@@ -3,10 +3,10 @@
 This is a web application providing a spreadsheet-like interface for databases. This project 
 
 ## Team Members:
-- Aditya Ajey (22B0986)  
-- Sanoj S Vijendra (22B0916)  
-- Abhay Kantiwal (22B1066)  
-- Ujjwal Kumar (22B1065)
+- Sanoj S Vijendra (22B0916)   
+- Aditya Ajey (22B0986)    
+- Ujjwal Kumar (22B1065)  
+- Abhay Kantiwal (22B1066)
 
 ## Objective:
 ----------
